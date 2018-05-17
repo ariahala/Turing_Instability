@@ -7,5 +7,4 @@ Laplace matrix was approximated using a 5-point method, and sparse matrix in Mat
 Sample Result:
 
 
-
-![alt text](Turing Patterns/Screen Shot 2017-07-14 at 11.04.05 AM.png?raw=true "First sample")
+![Alt text](?raw=true "Title")

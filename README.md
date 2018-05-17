@@ -6,4 +6,4 @@ Laplace matrix was approximated using a 5-point method, and sparse matrix in Mat
 
 Sample Result:
 
-![first sample](Screen\ Shot\ 2017-07-14\ at\ 11.04.05\ AM.png?raw=true "First sample")
+![first sample](Turing\ Patterns/Screen\ Shot\ 2017-07-14\ at\ 11.04.05\ AM.png?raw=true "First sample")

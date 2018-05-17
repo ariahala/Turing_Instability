@@ -23,3 +23,10 @@ Laplace matrix was approximated using a 5-point method, and sparse matrix in Mat
 <p align="center">
   <img src="./flexible Rection-diffusion 2D (Fitzhugh nagomu) explicit method/image1.gif" width="350"/>
 </p>
+
+>This is a sample result from the Laplace boundary problem:
+
+
+<p align="center">
+  <img src="./Flexible Laplace equation/laplace_1.png" width="350"/>
+</p>

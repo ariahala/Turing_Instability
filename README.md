@@ -4,7 +4,14 @@ Solving Reaction diffusion in a Square environment with von-Neumann boundary con
 
 Laplace matrix was approximated using a 5-point method, and sparse matrix in Matlab was used.
 
-This is a sample result from Truing Pattern simulation:
+>This is a sample result from Truing Pattern simulation:
+
+<p align="center">
+  <img src="./Turing Patterns/Screen Shot 2017-07-14 at 11.04.05 AM.png" width="350"/>
+  <img src="./Turing Patterns/Screen Shot 2017-07-14 at 11.08.11 AM.png" width="350"/>
+</p>
+
+>This is a sample from the Fitzhugh nagumo PDE:
 
 <p align="center">
   <img src="./Turing Patterns/Screen Shot 2017-07-14 at 11.04.05 AM.png" width="350"/>

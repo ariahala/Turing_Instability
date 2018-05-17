@@ -17,3 +17,9 @@ Laplace matrix was approximated using a 5-point method, and sparse matrix in Mat
   <img src="./Flexible reaction diffusion 1D (Axon - fitzhugh nagomuh travelling wave) explicit method/neuron_1.png" width="350"/>
   <img src="./Flexible reaction diffusion 1D (Axon - fitzhugh nagomuh travelling wave) explicit method/neuron_2.png" width="350"/>
 </p>
+
+>This is the result of the simulation of the reaction diffusion model of hodgkin huxely in 2D square environment:
+
+<p align="center">
+  <img src="./Flexible reaction diffusion 1D (Axon - fitzhugh nagomuh travelling wave) explicit method/neuron_1.png" width="350"/>
+</p>

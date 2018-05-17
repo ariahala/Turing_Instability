@@ -7,7 +7,8 @@ U = zeros(N,N);
 V = zeros(N,N);
  U = random('Normal' , 0 , 1 , N , N );
  V = random('Normal' , 0 , 1 , N , N );
-
+filename = './test.gif'
+h = figure;
  for u = 1:10
      for i = 2:N-1
          for j = 2:N-1
@@ -25,7 +26,7 @@ for i = 1:N
 end
 %diffusion parameter for U
 D = 0.001;
-diffusion parameter for V
+%diffusion parameter for V
 D1 = 0;
 epsilon = 1;
 
@@ -87,4 +88,11 @@ for i = 2:T
      imagesc(U);
      zlim([-10,10]);
      drawnow;
+     % Write to the GIF File 
+     if i == 2 
+         imwrite(uint8(256*mat2gray(U)),fullfile('./', 'image1.gif'),'gif', 'Loopcount',inf);
+     end
+     if mod(i,5) == 0
+         imwrite(uint8(mat2gray(U)*256),fullfile('./', 'image1.gif'),'gif','WriteMode','append');
+     end 
 end
